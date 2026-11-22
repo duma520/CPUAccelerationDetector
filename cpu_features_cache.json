@@ -1,0 +1,92 @@
+{
+  "cpu_info": {
+    "cpu_name": "",
+    "cpu_cores": 0,
+    "cpu_threads": 0,
+    "architecture": "AMD64",
+    "system": "Windows",
+    "platform": "Windows-10-10.0.19045-SP0"
+  },
+  "simd": {
+    "sse": {
+      "supported": [],
+      "details": {
+        "sse": false,
+        "sse2": false,
+        "sse3": false,
+        "ssse3": false,
+        "sse4.1": false,
+        "sse4.2": false
+      }
+    },
+    "avx": {
+      "supported": [],
+      "details": {
+        "avx": false,
+        "avx2": false,
+        "avx512": false
+      }
+    },
+    "neon": {
+      "supported": false,
+      "details": {
+        "is_arm": false
+      }
+    },
+    "fma": {
+      "supported": false,
+      "details": {}
+    }
+  },
+  "parallel_frameworks": {
+    "openmp": {
+      "supported": true,
+      "version": "14.2.0",
+      "details": {}
+    },
+    "openmpi": {
+      "supported": false,
+      "version": "\u672a\u77e5",
+      "details": {}
+    },
+    "tbb": {
+      "supported": false,
+      "version": "\u672a\u77e5",
+      "details": {}
+    }
+  },
+  "python_accelerations": {
+    "numpy": {
+      "supported": true,
+      "version": "2.2.6",
+      "details": {
+        "blas": "\u68c0\u6d4b\u5931\u8d25",
+        "lapack": "\u68c0\u6d4b\u5931\u8d25"
+      }
+    },
+    "numba": {
+      "supported": true,
+      "version": "0.64.0",
+      "details": {}
+    },
+    "cython": {
+      "supported": true,
+      "version": "3.2.4",
+      "details": {}
+    }
+  },
+  "gpu_acceleration": {
+    "cuda": {
+      "supported": false,
+      "version": "\u672a\u77e5",
+      "details": {}
+    },
+    "opencl": {
+      "supported": false,
+      "version": "\u672a\u77e5",
+      "details": {}
+    }
+  },
+  "timestamp": 1773343054.4630198,
+  "detection_time": 6.49
+}
