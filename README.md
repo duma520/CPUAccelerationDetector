@@ -1,11 +1,8 @@
 # CPUAccelerationDetector （见源码内 VERSION 常量）
 
-> **一句话**：CPUAccelerationDetector —— 一个用 Python 写的 Windows 桌面程序，
+> **一句话**：CPU 加速能力检测器：逐项测出这台机器支持哪些指令集（SSE / AVX / NEON / SIMD），以及 numba / Cython / OpenCL 等加速运行时是否可用，结果落 JSON 缓存。给程序选加速路径、判断「为什么这段代码没快起来」时先跑它。
+>
 > 主程序为 `CPUAccelerationDetector.py`，界面技术栈 tkinter（Python 自带 GUI，无需额外安装）。
->
-> **适合谁**：想直接用现成工具、不想自己写代码的 Windows 用户。
->
-> **解决什么问题**：把这件事做成开箱即用的程序 —— 下载解压、装上依赖、双击就能跑。
 
 ---
 
